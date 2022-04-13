@@ -2,6 +2,8 @@ import { Fragment, React } from "react";
 
 import Profile_Pic from "../media/profile.png";
 
+import EditIcon from '@mui/icons-material/Edit';
+
 import {
     Box,
     Grid,
@@ -9,7 +11,8 @@ import {
     Card,
     CardContent,
     Tooltip,
-    Divider
+    Divider,
+    IconButton
 } from "@mui/material";
 
 const profileData = [
@@ -37,7 +40,6 @@ function Profile(props){
             <CardContent>
                 <Grid 
                     container
-                    spacing={2}
                     alignItems="center"
                     sx={{ height: "100%" }}
                 >
@@ -60,8 +62,21 @@ function Profile(props){
                         </Tooltip>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12}>
+                        <Tooltip title="Edit" sx={{ mb: 2}}>
+                            <IconButton 
+                                size="large"
+                                color="inherit"
+                            >
+                                <EditIcon sx={{ color: "black" }}/>
+                            </IconButton>
+                        </Tooltip>
+                    </Grid>
+                    <Grid item xs={12} sm={12} md={12}>
                         <Card>
                             <CardContent>
+
+                                <Divider/>
+
                                 {profileData.map((profile, i) => (
                                     <Fragment>
                                         <Grid 

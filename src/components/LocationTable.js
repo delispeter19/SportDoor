@@ -20,13 +20,13 @@ const parkData = [
     },
     {
         name: "Beausejour",
-        link: "https://goo.gl/maps/XYLs2xbqDPa5M4Qg9",
+        link: "https://goo.gl/maps/AeSPnXcz1XbCUdRA9",
         status: "Closed",
         people: 0,
     },
     {
         name: "Cousineau",
-        link: "https://goo.gl/maps/XYLs2xbqDPa5M4Qg9",
+        link: "https://goo.gl/maps/oo1YS7jgHFroH3Sp7",
         status: "Open",
         people: 4,
     }

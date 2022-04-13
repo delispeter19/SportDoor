@@ -79,7 +79,7 @@ function Profile(props){
                                                     {profile.name}
                                                 </Typography>
                                             </Grid>
-                                            <Grid item xs={6} sm={6} md={6}>
+                                            <Grid item xs={6} sm={6} md={6} align="right">
                                                 <Typography
                                                     key={i+"1"}
                                                     variant="body"

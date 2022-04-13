@@ -2,11 +2,9 @@ import { React, useRef, useCallback, Fragment } from "react";
 import Webcam from "react-webcam";
 
 import {
-    Box,
     Typography,
     Card,
     CardContent,
-    Divider,
     Button, 
     createTheme,
     ThemeProvider

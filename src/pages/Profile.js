@@ -2,19 +2,13 @@ import { Fragment, React } from "react";
 
 import Profile_Pic from "../media/profile.png";
 
-import InfoIcon from '@mui/icons-material/Info';
-
 import {
     Box,
     Grid,
     Typography,
     Card,
     CardContent,
-    TextField,
     Tooltip,
-    IconButton,
-    Paper,
-    Avatar,
     Divider
 } from "@mui/material";
 
